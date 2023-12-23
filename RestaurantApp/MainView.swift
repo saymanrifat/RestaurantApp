@@ -8,7 +8,6 @@ struct MainView: View {
                     Image(systemName: "menucard")
                     Text("Menu")
                 }
-                
             }
             AboutView().tabItem {
                 VStack{
@@ -20,6 +19,7 @@ struct MainView: View {
                 VStack{
                     Image(systemName: "photo")
                     Text("Gallery")
+                
                 }
             }
         }
